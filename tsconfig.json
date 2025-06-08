@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		/* Base Options: */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "es2024",
+		"allowJs": false,
+		"resolveJsonModule": true,
+
+		/* Strictness */
+		"strict": true,
+
+		"jsx": "react-jsx",
+		"jsxImportSource": "hono/jsx",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"moduleResolution": "node"
+	}
+}

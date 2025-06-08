@@ -1,0 +1,24 @@
+{
+	"name": "server",
+	"scripts": {
+		"dev": "bun run --hot src/index.ts",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit migrate",
+		"db:pull": "drizzle-kit pull",
+		"db:push": "drizzle-kit push",
+		"db:studio": "drizzle-kit studio"
+	},
+	"dependencies": {
+		"drizzle-orm": "^0.44.2",
+		"hono": "^4.7.11",
+		"jose": "^6.0.11",
+		"pg": "^8.16.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.0-beta.6",
+		"@types/bun": "^1.2.15",
+		"@types/pg": "^8.15.4",
+		"argon2": "^0.43.0",
+		"drizzle-kit": "^0.31.1"
+	}
+}

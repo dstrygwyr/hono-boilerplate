@@ -73,16 +73,15 @@ Here are custom `package.json` scripts to manage your PostgreSQL database with *
 ```
 
 ```bash
-| Script         | Description                                                                 |
-|----------------|-----------------------------------------------------------------------------|
-| `db:generate`  | Generates SQL migration files based on changes in your schema.             |
-| `db:migrate`   | Applies generated migrations to the database.                              |
-| `db:pull`      | Introspects your existing database schema and generates Drizzle schema.    |
-| `db:push`      | Pushes your current schema directly to the database (no migration needed). |
-| `db:studio`    | Opens Drizzle Studio — a UI to inspect and interact with your DB.          |
+| Script         | Description                                                                  |
+|----------------|----------------------------------------------------------------------------- |
+| `db:generate`  | Generates SQL migration files based on changes in your schema.               |
+| `db:migrate`   | Applies generated migrations to the database.                                |
+| `db:pull`      | Introspects your existing database schema and generates Drizzle schema.      |
+| `db:push`      | Pushes your current schema directly to the database (no migration needed).   |
+| `db:studio`    | Opens Drizzle Studio — a UI to inspect and interact with your DB.            |
 
 > 💡 `db:push` is great for local/dev workflows, while `db:generate` + `db:migrate` is ideal for production workflows.
-
 ```
 
 > Make sure your `drizzle.config.ts` is correctly pointing to `src/db`.

@@ -20,8 +20,8 @@ A fast, modern backend boilerplate powered by [Bun](https://bun.sh), [Hono](http
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/dstrygwyr/bun-hono-boilerplate.git
-cd bun-hono-boilerplate
+git clone https://github.com/dstrygwyr/bun-hono-boilerplate.git your-project-name
+cd your-project-name
 ```
 
 ### 2. Install dependencies
